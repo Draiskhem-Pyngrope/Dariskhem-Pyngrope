@@ -1,0 +1,1309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Dariskhem Pyngrope - Researcher Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+            overflow-x: hidden;
+        }
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 120px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="2" fill="rgba(255,255,255,0.1)"/></svg>') repeat;
+            animation: float 20s infinite linear;
+        }
+
+
+
+
+        @keyframes float {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-100px); }
+        }
+        .profile-img {
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border: 5px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+        .profile-img:hover { transform: scale(1.05); }
+        .section {
+            padding: 80px 0;
+            position: relative;
+        }
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            background: white;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+        }
+        .card h5 { color: #667eea; }
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border: none;
+            border-radius: 25px;
+            padding: 10px 20px;
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        footer {
+            background: linear-gradient(135deg, #343a40, #495057);
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+        .back-to-top:hover { background: #764ba2; transform: scale(1.1); }
+        .navbar { background: rgba(0,0,0,0.8); backdrop-filter: blur(10px); }
+        .navbar-brand { font-weight: 700; }
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-atom"></i> Dr. Dariskhem Pyngrope</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about"><i class="fas fa-user"></i> About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills"><i class="fas fa-tools"></i> Skills & Research</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+		    <li class="nav-item"><a class="nav-link" href="#recognition">Recognition</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#talks">Invited Talks</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+
+ 
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+
+    <!-- Brand -->
+    <a class="navbar-brand fw-bold" href="#home">
+      <i class="fas fa-gear me-2"></i>Dr. Dariskhem Pyngrope
+    </a>
+
+    <!-- Toggle -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Nav links -->
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav ms-auto align-items-lg-center">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#about">
+            <i class="fas fa-user me-1"></i> About
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#education">
+            <i class="fas fa-graduation-cap me-1"></i> Education
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">
+            <i class="fas fa-microscope me-1"></i> Skills & Research
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">
+            <i class="fas fa-diagram-project me-1"></i> Projects
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#recognition">
+            <i class="fas fa-award me-1"></i> Recognition
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#talks">
+            <i class="fas fa-microphone-lines me-1"></i> Invited Talks
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">
+            <i class="fas fa-briefcase me-1"></i> Experience
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">
+            <i class="fas fa-envelope me-1"></i> Contact
+          </a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container" data-aos="fade-up">
+            <img src="C:\Users\Admin\Desktop\wEbsite\Passport1.jpeg" alt="Dr. Dariskhem Pyngrope" class="profile-img">
+            <h1>Dr. Dariskhem Pyngrope</h1>
+            <p> Post Doctoral | Physics-Based Compact Modeling (BSIM/ ASM-HEMT) | ML | DTCO | Cryogenic Electronics </p>
+            <a href="#about" class="btn btn-primary btn-lg mt-3"><i class="fas fa-arrow-down"></i> Learn More</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">About Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8" data-aos="fade-up" data-aos-delay="200">
+                    <p class="lead" class="text-justify">
+
+
+<div class="container my-4">
+    <div class="row justify-content-center">
+        <div class="col-lg-10 col-md-11">
+            <p class="text-justify">
+               Hello! I am a doctoral researcher specializing in compact modeling (BSIM and ASM-HEMT), simulation, and material–device co-design of wide and ultra-wide bandgap semiconductors for next-generation power and RF electronics. My work focuses on physics-based and SPICE-compatible models for advanced devices such as GaN HEMTs, ferroelectric HEMTs, and multi-gate FETs, with contributions to industry-standard modeling frameworks <a href="https://www.bdmc.berkeley.edu/model-download/bsim-cmg-nn-assist-bdmc1-0-0/" target="_blank">BSIM-CMG-NN-Assist-BDMC1.0.0 </a>. I also explore AI-assisted device modeling and Ga<sub>2</sub>O<sub>3</sub> thin-film fabrication using RF sputtering, bridging material engineering with circuit-level reliability.
+          
+
+</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Education</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4" data-aos="fade-right">
+                    <div class="card p-4">
+                        <h5><i class="fas fa-microscope"></i> Post Doc. in Electronics & Communication-(2025-Ongoing) </h5>
+                        <p> Indian Institute of Technology, Roorkee (Supervisor: <a href= "https://faculty.iitr.ac.in/ece/avirup/About.html" target="_blank">Dr. Avirup Dasgupta </a> )</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4" data-aos="fade-left">
+                    <div class="card p-4">
+                        <h5><i class="fas fa-graduation-cap"></i> Ph.D. in Electronics & Communication-(2022-2025)</h5>
+                        <p>National Institute of Technology Meghalaya (Supervisor: <a href= "https://nitmeghalaya.irins.org/profile/101596" target="_blank">Dr. S. Majumdar </a> )</p></p>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4" data-aos="fade-right" data-aos-delay="200">
+                    <div class="card p-4">
+                        <h5><i class="fas fa-book"></i> M.Sc. in Electronics (2018-2019) </h5>
+                        <p>Rashbehari Siksha Prangan, University of Calcutta (Supervisor: <a href= "https://scholar.google.com/citations?user=1_ZeXwEAAAAJ&hl=en" target="_blank">Dr. S. Chattopadhyay </a> )</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4" data-aos="fade-left" data-aos-delay="200">
+                    <div class="card p-4">
+                        <h5><i class="fas fa-award"></i> B.Sc. in Electronics(2015-2017)</h5>
+                        <p>St. Edmunds College, Shillong (3rd Rank)(Supervisor: <a href= "https://sec.edu.in/dept2.php?d_id=7" target="_blank">Mr. B. Thangkhiew </a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<!-- ===== SKILLS & RESEARCH SECTION ===== -->
+<section id="skills" class="section">
+    <div class="container">
+        <h2 class="text-center mb-5" data-aos="fade-up">Skills & Research Areas</h2>
+
+        <div class="row text-center">
+
+            <!-- ===== MATERIAL SCIENCE ===== -->
+            <div class="col-md-3 mb-4" data-aos="zoom-in">
+                <div class="card p-4 h-100" data-bs-toggle="modal" data-bs-target="#materialsModal" style="cursor:pointer;">
+                    <i class="fas fa-flask fa-3x mb-3" style="color:#667eea;"></i>
+                    <h5>Material Science</h5>
+                    <p>Wide & Ultra-Wide Bandgap Materials</p>
+                </div>
+            </div>
+
+            <!-- ===== DEVICE ENGINEERING ===== -->
+            <div class="col-md-3 mb-4" data-aos="zoom-in" data-aos-delay="100">
+                <div class="card p-4 h-100" data-bs-toggle="modal" data-bs-target="#deviceModal" style="cursor:pointer;">
+                    <i class="fas fa-cogs fa-3x mb-3" style="color:#764ba2;"></i>
+                    <h5>Device Engineering</h5>
+                    <p>Power & RF Electronics</p>
+                </div>
+            </div>
+
+            <!-- ===== MODELING & SIMULATION ===== -->
+            <div class="col-md-3 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                <div class="card p-4 h-100" data-bs-toggle="modal" data-bs-target="#modelingModal" style="cursor:pointer;">
+                    <i class="fas fa-chart-line fa-3x mb-3" style="color:#667eea;"></i>
+                    <h5>Modeling & Simulation</h5>
+                    <p>Compact & Physics-Based Models</p>
+                </div>
+            </div>
+
+            <!-- ===== SOFTWARE & PROGRAMMING ===== -->
+            <div class="col-md-3 mb-4" data-aos="zoom-in" data-aos-delay="300">
+                <div class="card p-4 h-100" data-bs-toggle="modal" data-bs-target="#softwareModal" style="cursor:pointer;">
+                    <i class="fas fa-microchip fa-3x mb-3" style="color:#764ba2;"></i>
+                    <h5>Software & Programming</h5>
+                    <p>TCAD, SPICE & AI/ML</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ================= MODALS ================= -->
+
+<!-- ===== MATERIAL SCIENCE MODAL ===== -->
+<div class="modal fade" id="materialsModal" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Material Science & Fabrication</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <ul>
+                    <li><strong>Fabrication Tools:</strong> RF magnetron sputtering, thermal evaporator, spin coater, ball milling</li>
+                    <li><strong>Materials:</strong> GaN, AlGaN, ScAlN, β-Ga<sub>2</sub>O<sub>3</sub>, ferroelectric thin films</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ===== DEVICE ENGINEERING MODAL ===== -->
+<div class="modal fade" id="deviceModal" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Device Engineering & Characterization</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <ul>
+                    <li>GaN HEMTs, Ferroelectric HEMTs, Multi-Gate FETs</li>
+                    <li>Cryogenic and high-field device analysis</li>
+                    <li><strong>Electrical Characterization:</strong>X-ray Diffraction (XRD), X-ray Photoelectron Spectroscopy (XPS), Fourier Transform Infrared Spectroscopy (FTIR), Ultraviolet-Visible Spectroscopy (UV-Vis), Photoluminescence (PL), Raman Spectroscopy, and Atomic Force Microscopy (AFM), to explore and characterize the structural, chemical, and optical properties of materials. Additionally, advanced tools such as a Vector Network Analyzer (VNA) are employed for high-frequency electrical characterization, while a DC and RF probe station facilitates detailed investigations into direct current and radio frequency behavior. </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ===== MODELING & SIMULATION MODAL ===== -->
+<div class="modal fade" id="modelingModal" tabindex="-1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Modeling & Simulation</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <ul>
+                    <li>Physics-based & SPICE-compatible compact modeling</li>
+                    <li>BSIM, ASM-HEMT, BSIM-CMG, Verilog-A</li>
+                    <li>AI/ML-augmented compact models</li>
+                    <li>DTCO: Material → Device → Circuit co-design</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ===== SOFTWARE & PROGRAMMING MODAL ===== -->
+<div class="modal fade" id="softwareModal" tabindex="-1">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Software, Programming & Tools</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <ul>
+                    <li><strong>TCAD & EDA:</strong> SILVACO, Sentaurus TCAD, Cogenda TCAD, ADS, ICCAP, UTMOST IV</li>
+                    <li><strong>SPICE & Modeling:</strong> HSPICE, PSPICE, Verilog-A</li>
+                    <li><strong>Scientific Software:</strong> MATLAB, Quantum Espresso, BURAI, FullProf, VESTA, eSim</li>
+                    <li><strong>Programming:</strong> Python & MATLAB for AI/ML-driven device and circuit modeling</li>
+                    <li><strong>Writing & Visualization:</strong> LaTeX, Origin, Draw.io, Photoshop, MS Office</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- ===== SPONSORED PROJECTS ===== -->
+<section id="projects" class="section projects-section">
+
+    <div class="container">
+        <h2 class="text-center mb-2 fw-bold">Sponsored Projects</h2>
+        <p class="text-center text-muted mb-5">
+            National, International, and State-funded research initiatives
+        </p>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+
+                <!-- ===== NATIONAL PROJECTS ===== -->
+                <div class="card shadow-sm border-0 rounded-4 mb-4">
+                    <div class="card-body p-4">
+                        <h4 class="fw-semibold mb-3">
+    <i class="fas fa-flag me-2 text-primary"></i> National Projects
+</h4>
+
+                        <ul class="timeline-list">
+                            <li>
+                                <strong>RF Sputtering of Ga<sub>2</sub>O<sub>3</sub> for UV Detection</strong><br>
+                                INUP i2i Programme, sponsored by the
+                                <strong>Ministry of Electronics and Information Technology (MeitY)</strong><br>
+                                Department of Nanotechnology & EEE, <strong>IIT Guwahati</strong>
+                            </li>
+
+                            <li>
+                                <strong>Meta-Surface Enabled Gallium Oxide–Based Metal Detection Sensing</strong><br>
+                                Sponsored by the
+                                <strong>Ministry of Electronics and Information Technology (MeitY)</strong><br>
+                                Department of Electrical Engineering, <strong>IIT Bombay</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- ===== INTERNATIONAL PROJECTS ===== -->
+                <div class="card shadow-sm border-0 rounded-4 mb-4">
+                    <div class="card-body p-4">
+                        <h4 class="fw-semibold mb-3">🌍 International Projects</h4>
+
+                        <ul class="timeline-list">
+                            <li>
+                                <strong>Development of E-mode III-Nitride Devices for Energy-Optimized Agile Power Electronics</strong><br>
+                                Supported by <strong>DST, Government of India</strong><br>
+                                Indo–Czech Bilateral Programme<br>
+                                <span class="text-muted">
+                                    Order No. DST/INT/Czech/P-015/2019
+                                </span>
+                            </li>
+
+                            <li>
+                                <strong>Modeling Research for BSIM Models</strong><br>
+                                Research Project No. <strong>UCB-1720-ECD</strong><br>
+                                Sponsored by <strong>University of California, Berkeley (USA)</strong><br>
+                                Department of Electronics & Communication Engineering,
+                                <strong>IIT Roorkee</strong>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- ===== STATE PROJECT ===== -->
+                <div class="card shadow-sm border-0 rounded-4">
+                    <div class="card-body p-4">
+                        <h4 class="fw-semibold mb-3">🏛️ State Project</h4>
+
+                        <ul class="timeline-list">
+                            <li>
+                                <strong>Digital Literacy Initiative under PRIME Meghalaya</strong><br>
+                                Role: <strong>Chief Executive Officer, Technalari</strong><br>
+                                Sponsored by the <strong>Government of Meghalaya</strong><br>
+                                <span class="text-muted">
+                                    Budget: ₹3,00,000 INR
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== PROJECT STYLING ===== -->
+<style>
+#projects {
+    scroll-margin-top: 100px;
+    padding: 80px 0;
+    background: linear-gradient(135deg, #ffffff, #f6f8ff);
+}
+
+/* Timeline list styling */
+.timeline-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.timeline-list li {
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 18px;
+}
+
+.timeline-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.4rem;
+    color: #764ba2;
+}
+
+.card h4 {
+    color: #2c3e50;
+}
+</style>
+
+
+
+
+
+
+
+
+<!-- ===== PUBLICATIONS SECTION (NEXT SLIDE) ===== -->
+<section id="publications" class="section bg-light mt-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-11 col-md-12">
+
+                <h2 class="mb-4">Publications</h2>
+
+                <!-- ===== CONFERENCE ===== -->
+                <h4 class="mt-4 mb-3">IEEE Conference </h4>
+                <ul class="list-group list-group-flush mb-5">
+
+                    <li class="list-group-item">
+                        D. Pyngrope, T. Garg, A. Dasgupta, and S. Majumdar,
+                        <em>“Analytical modeling of polarization-coupled gate leakage transport in ScAlN-based Fe-HEMTs,”</em>
+                        IEEE Electron Devices Technology and Manufacturing (EDTM),
+                        Penang, Malaysia, March 2026.
+                    </li>
+
+                    <li class="list-group-item">
+                        A. Kumar, D. Pyngrope, and A. Dasgupta,
+                        <em>“A SPICE-Compatible Compact Model for Ferroelectric-Gated GaN-HEMTs,”</em>
+                        IEEE EDTM, Penang, Malaysia, March 2026.
+                    </li>
+
+                    <li class="list-group-item">
+                        K. Sheelvardhan, D. Pyngrope, M. Ehteshamuddin, S. Roy, and A. Dasgupta,
+                        <em>“Fast and Accurate Device Modeling: Extreme Learning Machine for Multi-Gate Transistors,”</em>
+                        IEEE EDTM, Penang, Malaysia, March 2026.
+                    </li>
+
+                    <li class="list-group-item">
+                        K. Sheelvardhan, D. Pyngrope, S. Roy, and A. Dasgupta,
+                        <em>“Extreme Learning Machine-Based Unified Modeling of All Multi-Gate Semiconductor Devices,”</em>
+                        International Workshop on Physics of Semiconductor Devices (IWPSD),
+                        2025.
+                    </li>
+
+                </ul>
+
+                <!-- ===== JOURNAL PUBLICATIONS ===== -->
+                <h4 class="mt-4 mb-3">SCI Journal</h4>
+                <ul class="list-group list-group-flush">
+
+                    <li class="list-group-item">
+                        A. Singh, D. Pyngrope, and A. Dasgupta,
+                        <em>“Complete Charge-Based Artificial Neural Network Augmented Compact Model for Common Multi-Gate FETs,”</em>
+                        IEEE Transactions on Electron Devices,
+                        <strong>Manuscript submitted</strong>, 2026.
+                    </li>
+
+                    <li class="list-group-item">
+                        S. Parandiyal, D. Pyngrope, and A. Dasgupta,
+                        <em>“Ultra-Fast Flexible Physics-Based Machine Learning Enhanced Compact Model Framework for All Multi-Gate FETs,”</em>
+                        Applied Artificial Intelligence,
+                        <strong>Manuscript submitted</strong>, 2026.
+                    </li>
+
+                    <li class="list-group-item">
+                        D. Pyngrope and S. Majumdar,
+                        <em>“Maximizing Power Efficiency in GaN HEMTs: Role of ScAlN Integration through n<sub>2DEG</sub> Analytical Modeling,”</em>
+                        Semiconductor Science and Technology,
+                        <strong>Manuscript submitted</strong>, 2025.
+                    </li>
+
+                    <li class="list-group-item">
+                        D. Pyngrope and S. Majumdar,
+                        <em>“Cryogenic insights: Analytical modeling of n<sub>2DEG</sub> density in ferroelectric-enhanced GaN HEMTs,”</em>
+                        Semiconductor Science and Technology,
+                        <strong>Manuscript submitted</strong>, 2025.
+                    </li>
+
+                    <li class="list-group-item">
+                        D. Pyngrope and S. Majumdar,
+                        <em>“Reliability of Ferroelectric Gate GaN HEMTs: Evolution, Mechanisms, and Future Perspectives,”</em>
+                        IEEE Transactions on Device and Materials Reliability (TDMR),
+                        <strong>Manuscript submitted</strong>, 2025.
+                    </li>
+
+                    <li class="list-group-item">
+                        D. Pyngrope and S. Majumdar,
+                        <em>“Machine learning-driven prediction of annealing effects on RF-sputtered β-Ga<sub>2</sub>O<sub>3</sub> films using Bi-LSTM modeling,”</em>
+                        Journal of Crystal Growth,
+                        <strong>Manuscript submitted</strong>, 2025.
+                    </li>
+
+                    <li class="list-group-item">
+                        D. Pyngrope and S. Majumdar,
+                        <em>“Ferroelectric-Gated GaN HEMT Class-AB Power Amplifier for High-Efficiency Broadband RF Applications,”</em>
+                        AEU – International Journal of Electronics and Communications,
+                        <strong>Manuscript submitted</strong>, 2025.
+                    </li>
+
+                    <li class="list-group-item">
+                        D. Pyngrope, S. Majumdar, and G. Crupi,
+                        <em>“Fractional order capacitance behavior due to hysteresis effect of ferroelectric material on GaN HEMT devices,”</em>
+                        International Journal of Numerical Modelling: Electronic Networks, Devices and Fields,
+                        vol. 37, no. 2, 2024.
+                        <a href="https://onlinelibrary.wiley.com/doi/10.1002/jnm.3206" target="_blank">DOI</a>
+                    </li>
+
+                    <li class="list-group-item">
+                        M. Biswas, D. Pyngrope, S. Kumar, S. Majumdar, and A. Bag,
+                        <em>“RF magnetron sputtering of Ga<sub>2</sub>O<sub>3</sub> thin films: Analysis of oxygen flow rate impact on stoichiometry, structural, optical characteristics, and energy band alignments,”</em>
+                        Materials Science in Semiconductor Processing,
+                        vol. 169, 2024, 107937.
+                        <a href="https://www.sciencedirect.com/science/article/pii/S1369800123006303" target="_blank">DOI</a>
+                    </li>
+
+                    <li class="list-group-item">
+                        D. Pyngrope <em>et al.</em>,
+                        <em>“Comprehensive empirical modeling of ScAlN/AlGaN/GaN ferroelectric HEMT,”</em>
+                        Semiconductor Science and Technology,
+                        vol. 39, 075015, 2024.
+                        <a href="https://iopscience.iop.org/article/10.1088/1361-6641/ad4d5a" target="_blank">DOI</a>
+                    </li>
+
+                    <li class="list-group-item">
+                        M. Biswas, D. Pyngrope, S. Kumar, S. Majumdar, and A. Bag,
+                        <em>“RF magnetron sputtering of Ga<sub>2</sub>O<sub>3</sub> thin films: Thermal annealing-induced tuning of structural, optical characteristics, and energy band alignments,”</em>
+                        Materials Science in Semiconductor Processing,
+                        vol. 174, 108243, 2024.
+                        <a href="https://www.sciencedirect.com/science/article/abs/pii/S1369800124001392" target="_blank">DOI</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== SMOOTH SCROLL SCRIPT ===== -->
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+    <!-- Projects Section -->
+   
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Research & Projects</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4" data-aos="fade-right">
+                    <div class="card p-4">
+                        <h5><i class="fas fa-lightbulb"></i> RF Sputtering of Ga₂O₃ for UV Detection</h5>
+                        <p>A national project under INUP-i2i, sponsored by MeitY at IIT Guwahati.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4" data-aos="fade-left">
+                    <div class="card p-4">
+                        <h5><i class="fas fa-search"></i> Meta Surface-Enabled Ga₂O₃ Metal Detection Sensing</h5>
+                        <p>A national project sponsored by MeitY at IIT Bombay.</p>
+                    </div>
+                </div>
+                <div class="col-md-12 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card p-4">
+                        <h5><i class="fas fa-globe"></i> International & State Projects</h5>
+                        <p>Development of E-mode III-Nitride Devices under Indo-Czech bilateral program; Technalari (digital literacy initiative), Government of Meghalaya.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- ===== PROFESSIONAL ORGANIZATIONS SECTION ===== -->
+<section id="professional-organizations" class="section">
+    <div class="container">
+        <h2 class="text-center mb-5">Professional Organizations & Research Profiles</h2>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+
+                <ul class="list-group list-group-flush">
+
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <span>
+                            <strong>IEEE</strong> – Student Member
+                            <span class="text-muted">(Member ID: 98518656)</span>
+                        </span>
+                        <span class="badge bg-secondary">2022 – Present</span>
+                    </li>
+
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <span>
+                            <strong>ORCID</strong> –
+                            <a href="https://orcid.org/0009-0004-7897-3950" target="_blank">
+                                0009-0004-7897-3950
+                            </a>
+                        </span>
+                        <span class="badge bg-secondary">2023 – Present</span>
+                    </li>
+
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <span>
+                            <strong>Web of Science Researcher ID</strong> –
+                            <a href="https://www.webofscience.com/wos/author/record/KEJ-3021-2024" target="_blank">
+                                KEJ-3021-2024
+                            </a>
+ </span>
+  <span class="badge bg-secondary">2023 – Present</span>
+
+                        </span>
+                    </li>
+
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <span>
+                            <strong>Google Scholar</strong> –
+                            <a href="https://scholar.google.com/citations?user=sJFeBBEAAAAJ&hl=en" target="_blank">
+                                B_RcO0YAAAAJ
+                            </a>
+                        </span>
+                        <span class="badge bg-secondary">2024 – Present</span>
+                    </li>
+
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <span>
+                            <strong>Scopus Author ID</strong> –
+                            <a href="https://www.scopus.com/authid/detail.uri?authorId=58676071700" target="_blank">
+                                58676071700
+                            </a>
+                        </span>
+                        <span class="badge bg-secondary">2024 – Present</span>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="recognition" class="section recognition-section">
+
+    <div class="container">
+        <h2 class="text-center mb-2 fw-bold">Recognition & Awards</h2>
+        <p class="text-center text-muted mb-5">
+            Milestones that shaped my academic and professional journey
+        </p>
+
+        <div class="row g-4 justify-content-center">
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                <div class="card h-100 award-card">
+                    <div class="card-body">
+                        <h5 class="card-title">🏆 Best Student Award</h5>
+                        <p class="card-text">
+                            Technical Category, <strong>NIT Meghalaya</strong><br>
+                            <span class="text-muted">2024</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="card h-100 award-card">
+                    <div class="card-body">
+                        <h5 class="card-title">🥇 INUP-i2i Nanotech Hackathon</h5>
+                        <p class="card-text">
+                            Winner – IIT Bombay<br>
+                            <span class="text-muted">2023</span>
+                        </p>
+                        <a href="https://www.dropbox.com/scl/fi/4vmrvigzomiafj57w3i9v/IITB.pdf?rlkey=6toiisxrchmossxoc6qab5mjo&dl=0"
+                           target="_blank" class="btn btn-sm btn-outline-primary mt-2">
+                            View Certificate
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="card h-100 award-card">
+                    <div class="card-body">
+                        <h5 class="card-title">🏅 Best Research Contribution</h5>
+                        <p class="card-text">
+                            NIT Meghalaya<br>
+                            <span class="text-muted">2022</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                <div class="card h-100 award-card">
+                    <div class="card-body">
+                        <h5 class="card-title">🖼️ Best Poster Award</h5>
+                        <p class="card-text">
+                            INUP-i2i Workshop, IIT Guwahati<br>
+                            <span class="text-muted">March 2022</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="card h-100 award-card">
+                    <div class="card-body">
+                        <h5 class="card-title">🎓 GATE Qualified</h5>
+                        <p class="card-text">
+                            National Level Examination<br>
+                            <span class="text-muted">2022</span>
+                        </p>
+                        <a href="https://www.dropbox.com/scl/fi/53ivdj4k7nqw6y267ajbe/gate.png?rlkey=mlki5b0ev6dc9oxtad7038bt8&dl=0"
+                           target="_blank" class="btn btn-sm btn-outline-primary mt-2">
+                            Scorecard
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                <div class="card h-100 award-card">
+                    <div class="card-body">
+                        <h5 class="card-title">🚀 Top 50 Entrepreneur</h5>
+                        <p class="card-text">
+                            Government of Meghalaya<br>
+                            <span class="text-muted">2019</span>
+                        </p>
+                        <a href="https://www.primemeghalaya.com/top-50-entrepreneurs/"
+                           target="_blank" class="btn btn-sm btn-outline-primary mt-2">
+                            Featured Article
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                <div class="card h-100 award-card">
+                    <div class="card-body">
+                        <h5 class="card-title">🎓 NET JRF / Lectureship</h5>
+                        <p class="card-text">
+                            Qualified<br>
+                            <span class="text-muted">2020</span>
+                        </p>
+                        <a href="https://www.dropbox.com/scl/fi/0537h6hk7548i7y5xz94n/net.png?rlkey=ksicw4k7lru6gptzoqx8ynndn&dl=0"
+                           target="_blank" class="btn btn-sm btn-outline-primary mt-2">
+                            Certificate
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                <div class="card h-100 award-card">
+                    <div class="card-body">
+                        <h5 class="card-title">🏅 Graduation Rank</h5>
+                        <p class="card-text">
+                            3<sup>rd</sup> Rank, NEHU<br>
+                            <span class="text-muted">2017</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<style>
+/* Scroll offset for fixed navbar */
+#recognition {
+    scroll-margin-top: 90px;
+    background: linear-gradient(135deg, #f8f9fa, #eef1ff);
+    padding: 80px 0;
+}
+
+/* Card styling */
+.award-card {
+    border-radius: 16px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.award-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(102,126,234,0.25);
+}
+</style>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100" tabindex="0">
+
+
+
+
+
+
+
+
+
+<!-- ===== INVITED TALKS & PRESENTATIONS ===== -->
+<section id="talks" class="section talks-section">
+    <div class="container">
+        <h2 class="text-center mb-2 fw-bold">Invited Presentations & Talks</h2>
+        <p class="text-center text-muted mb-5">
+            Academic, industry, and leadership engagements
+        </p>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+
+                <div class="list-group list-group-flush shadow-sm rounded-4">
+
+                    <!-- Talk 1 -->
+                    <div class="list-group-item py-4 d-flex align-items-start gap-4">
+                        <img src="C:\Users\Admin\Desktop\wEbsite\Screenshot 2026-02-09 222113.png"
+                             alt="BDMC Presentation"
+                             class="rounded shadow-sm"
+                             style="width:160px; height:110px; object-fit:cover;">
+
+                        <div>
+                            <h6 class="fw-semibold mb-1">
+                                BSIM-CMG NN-Assist Compact Model
+                            </h6>
+                            <p class="mb-1 text-muted">
+                                BDMC Industry-Standard Model Development Presentation
+                            </p>
+                            <span class="badge bg-primary-subtle text-primary">
+                                September 2025
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Talk 2 -->
+                    <div class="list-group-item py-4 d-flex align-items-start gap-4">
+                        <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SRkh6tpyGYvWVSxFOYXQgog_MMdGkV83--IobspVxYcuO1KP6ZKUyWjF_ILK4XXOq_ulygRAZEN0-BOm4X7vH5S9VqT_F2ra3k1xJpd2rIfWQyidKQLgJFWuJH9ovuHCysyskVdE8a7ZIKbxKCE-jx3pDN8AyXvZANNSmA4XMn4Hks0u9ROmyPY_r-KQFV2jCLWuwWiZu-oPcjAyRhWOlTzI9mbJfy0irmG=w1280"
+                             alt="ICSMMT 2024 Presentation"
+                             class="rounded shadow-sm"
+                             style="width:160px; height:110px; object-fit:cover;">
+
+                        <div>
+                            <h6 class="fw-semibold mb-1">
+                                Optimizing GaN HEMTs and Gallium Oxide for Next-Generation Power Electronics
+                            </h6>
+                            <p class="mb-1 text-muted">
+                                ICSMMT 2024, Assam Downtown University
+                            </p>
+                            <span class="badge bg-primary-subtle text-primary">
+                                December 13, 2024
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Talk 3 -->
+                    <div class="list-group-item py-4 d-flex align-items-start gap-4">
+                        <img src="https://lh3.googleusercontent.com/sitesv/APaQ0SR7Dvedc6RU-CnK9phWKlHDlpIqypjfQVDNCIL48kpeW0X5N9BnC4qtdLPQr-RimlFDA_8L8rNIVPFI76gvUxtfOqQpChwnwp6GYBP6imZKEJb7X4aqueRnJrFESmzndHfleFflj3gyghlq_oqswyRRJmOBO-fVAl8tT72JKGRwP8vI5DGWAJYGvl2dDmuN1YoSDc3Psn1JotmKmLkbjENCr9pMZ1CiteuM=w1280"
+                             alt="AI for Everyone"
+                             class="rounded shadow-sm"
+                             style="width:160px; height:110px; object-fit:cover;">
+
+                        <div>
+                            <h6 class="fw-semibold mb-1">
+                                AI for Everyone
+                            </h6>
+                            <p class="mb-1 text-muted">
+                                Advanced Management Development Programme (A-MDP)<br>
+                                Sponsored by MeitY & MSME, Govt. of India, NIT Meghalaya
+                            </p>
+                            <span class="badge bg-primary-subtle text-primary">
+                                March 10–14, 2025
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Talk 4 -->
+                    <div class="list-group-item py-4 d-flex align-items-start gap-4">
+                        <img src="https://lh3.googleusercontent.com/sitesv/APaQ0STYhQ-RazQbj9OybOb7sDOsXA_RZi6xZmHTNSHRyykIGg0swX8GW5fRwLujaF3SSHV1It5WltaY9cTIy2eMnHEyjWWD1KtVh5vKaWJeuw0ynA38PawU59oOOUTGmRY6fkpsOEt-PcqgIYbE_UkxbhsFZGHIF8MiyNUTXy_RfPq_AQ7vpPqoREFoqyPQzdejiGgw9et-iw15eug4kclgbXO3bynAmnfwpj8kNIc=w1280"
+                             alt="Leadership Talk"
+                             class="rounded shadow-sm"
+                             style="width:160px; height:110px; object-fit:cover;">
+
+                        <div>
+                            <h6 class="fw-semibold mb-1">
+                                Leadership in Today’s Fast-Paced Era
+                            </h6>
+                            <p class="mb-1 text-muted">
+                                Management Development Programme (MDP)<br>
+                                Sponsored by MeitY & MSME, Govt. of India, NIT Meghalaya
+                            </p>
+                            <span class="badge bg-primary-subtle text-primary">
+                                March 24–28, 2025
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<!-- ===== EXPERIENCE SECTION ===== -->
+<section id="experience" class="section experience-section">
+
+    <div class="container">
+        <h2 class="text-center mb-2 fw-bold">Experience</h2>
+        <p class="text-center text-muted mb-5">
+            Teaching, research, and advanced modeling experience
+        </p>
+
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+
+                <!-- ===== TEACHING EXPERIENCE ===== -->
+                <div class="card shadow-sm border-0 rounded-4 mb-4">
+                    <div class="card-body p-4">
+                        <h4 class="fw-semibold mb-3">🎓 Teaching Experience</h4>
+
+                        <ul class="timeline-list">
+                            <li>
+                                <strong>Part-Time Lecturer</strong><br>
+                                Department of Computer Science, <strong>William Carey University</strong>, Shillong, Meghalaya<br>
+                                <span class="text-muted">5<sup>th</sup> October 2021 – August 2024</span>
+                            </li>
+
+                            <li>
+                                <strong>Visiting Faculty</strong><br>
+                                Department of Information & Technology, <strong>ICFAI University</strong>, Shillong, Meghalaya<br>
+                                <span class="text-muted">17<sup>th</sup> August 2023 – 28<sup>th</sup> February 2024</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- ===== RESEARCH EXPERIENCE ===== -->
+                <div class="card shadow-sm border-0 rounded-4">
+                    <div class="card-body p-4">
+                        <h4 class="fw-semibold mb-3">🔬 Research Experience</h4>
+
+                        <ul class="timeline-list">
+                            <li>
+                                <strong>Researcher – IIT Guwahati</strong><br>
+                                <em>
+                                    “Thermal Annealing-Induced Tuning of Ga<sub>2</sub>O<sub>3</sub> Properties:
+                                    Crystal Growth, Surface, and Optoelectronic Characteristics”-
+                                </em><br>
+ <span class="text-muted">
+        Supervisor:
+        <a href="https://sites.google.com/view/ankushbag"
+           target="_blank"
+           class="text-decoration-none fw-semibold">
+           Dr. Ankush Bag
+        </a>,
+        Indian Institute of Technology Guwahati
+    </span><br>
+                                <span class="text-muted">8<sup>th</sup> April 2022 – 1<sup>st</sup> July 2023</span>
+                            </li>
+
+
+
+                            <li>
+                                <strong>Junior Research Fellow (JRF) – NIT Meghalaya</strong><br>
+                                <em>
+                                    “Development of E-mode III-Nitride Devices for Energy-Optimized Agile Power Electronics”
+                                </em><br>
+                                Supported by DST, Govt. of India (Indo–Czech Bilateral Program)<br>
+                                <span class="text-muted">Order No. DST/INT/Czech/P-015/2019</span><br>
+<span class="text-muted">
+        Supervisor:
+        <a href="https://www.nitm.ac.in/department/electronics-communication-engineering-2/faculty/dr-shubhankar-majumdar-1"
+           target="_blank"
+           class="text-decoration-none fw-semibold">
+           Dr. S. Majumdar
+        </a>,
+        National Insitute of Technology, Meghalaya
+    </span><br>
+ <span class="text-muted">27<sup>th</sup> November 2021 – 1<sup>st</sup> October 2025</span>
+
+                            </li>
+
+                            <li>
+                                <strong>Postdoctoral Researcher – IIT Roorkee</strong><br>
+                                Department of Electronics and Communication Engineering<br>
+                                <em>
+                                    “Modeling Research for BSIM Models”
+                                </em><br>
+                                Sponsored by University of California, Berkeley (USA)<br>
+                                <span class="text-muted">Project No. UCB-1720-ECD</span>
+
+<span class="text-muted">
+        Supervisor:
+        <a href="https://faculty.iitr.ac.in/ece/avirup/Publications.html"
+           target="_blank"
+           class="text-decoration-none fw-semibold">
+           Dr.Avirup Dasgupta 
+        </a>,
+       Indian Institute of Technology, Roorkee
+    </span><br>
+<span class="text-muted">2<sup>th</sup> June 2025 – <sup>st</sup> Ongoing</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== EXPERIENCE STYLING ===== -->
+<style>
+/* Scroll offset for fixed navbar */
+#experience {
+    scroll-margin-top: 100px;
+    padding: 80px 0;
+    background: linear-gradient(135deg, #ffffff, #f6f8ff);
+}
+
+/* Timeline-style list */
+.timeline-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.timeline-list li {
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 20px;
+}
+
+.timeline-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.4rem;
+    color: #667eea;
+}
+
+.card h4 {
+    color: #2c3e50;
+}
+</style>
+
+
+
+
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Contact</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card p-4">
+                        <p><i class="fas fa-envelope"></i> <strong>Email:</strong> dpyngrope95@gmail.com</p>
+                        <p><i class="fas fa-envelope-open"></i> <strong>Alternate Email:</strong> p22ec001@nitm.ac.in | dariskhem.ece@sric.iitr.ac.in</p>
+                        <p><i class="fab fa-linkedin"></i> <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/dariskhem-pyngrope-a53792168" target="_blank">linkedin.com/in/dariskhem-pyngrope</a></p>
+                      
+                        <p><i class="fas fa-map-marker-alt"></i> <strong>Address:</strong> Department of Electronics & Communication, IIT Roorkee, Roorkee, Uttarakhand, India.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Dr. Dariskhem Pyngrope. All rights reserved. | Designed with <i class="fas fa-heart" style="color: #e74c3c;"></i> for Innovation</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" onclick="scrollToTop()"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        // Back to top
+        window.onscroll = function() {
+            const backToTop = document.querySelector('.back-to-top');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTop.style.display = 'flex';
+            } else {
+                backToTop.style.display = 'none';
+            }
+        };
+        function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
